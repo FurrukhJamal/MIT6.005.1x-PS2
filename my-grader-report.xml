@@ -1,0 +1,2501 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="1" hostname="LAPTOP-37F339O8" id="0" name="ExtractTest" package="twitter" skipped="0" tests="9" time="0.1" timestamp="2022-03-12T17:24:28">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes" />
+
+          <property name="user.country.format" value="PK" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946" />
+
+          <property name="java.runtime.version" value="1.8.0_281-b09" />
+
+          <property name="user.name" value="furru" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_281" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_281\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\furru\eclipse-workspace\ps2-tweets\grader.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="final.grader.jar" value="ps2-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.281-b09" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\furru" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Softwares/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;D:/Softwares/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\ProgramData\ComposerSetup\bin;C:\Users\furru\AppData\Local\Microsoft\WindowsApps;C:\Users\furru\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\furru\AppData\Local\atom\bin;C:\Users\furru\AppData\Local\Android\Sdk\platform-tools;C:\Users\furru\AppData\Local\Android\Sdk;C:\Users\furru\AppData\Roaming\npm;D:\xampp\php\;C:\Users\furru\AppData\Roaming\Composer\vendor\bin;C:\Users\furru\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps2-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner twitter.ExtractTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\TEST-twitter.ExtractTest.xml crashfile=C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\junitvmwatcher1633188959452778060.properties propsfile=C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\junit5862635636035130794.properties" />
+
+          <property name="java.class.path" value="C:\Users\furru\eclipse-workspace\ps2-tweets\lib\junit-4.12.jar;C:\Users\furru\eclipse-workspace\ps2-tweets\lib\hamcrest-core-1.3.jar;C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\bin-tests-student;C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\bin-impls-student;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-launcher.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.9 compiled on September 27 2020" />
+
+          <property name="project.name" value="ps2-tweets" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running your tests on your implementation." />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.io.tmpdir" value="C:\Users\furru\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\furru\eclipse-workspace\ps2-tweets" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps2" />
+
+          <property name="basedir" value="C:\Users\furru\eclipse-workspace\ps2-tweets" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="twitter.ExtractTest" name="testGetMentionedUsersNoMention" time="0.006" />
+
+      <testcase classname="twitter.ExtractTest" name="testGetTimespanTwoTweets" time="0.007" />
+
+      <testcase classname="twitter.ExtractTest" name="testGetMentionedUsers_oneMention" time="0.0" />
+
+      <testcase classname="twitter.ExtractTest" name="testAssertionsEnabled" time="0.001" />
+
+      <testcase classname="twitter.ExtractTest" name="testGetMentionedUsers_UserNamesEndedWithPunctuationBug" time="0.004">
+          <failure message="expected:&lt;2&gt; but was:&lt;4&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;2&gt; but was:&lt;4&gt;
+	at twitter.ExtractTest.testGetMentionedUsers_UserNamesEndedWithPunctuationBug(ExtractTest.java:128)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.ExtractTest" name="testGetMentionedUsers" time="0.0" />
+
+      <testcase classname="twitter.ExtractTest" name="testGetMentioned_onePlusTweetOnePlusMention" time="0.001" />
+
+      <testcase classname="twitter.ExtractTest" name="testGetMentionedUsers_TwoMentions" time="0.0" />
+
+      <testcase classname="twitter.ExtractTest" name="testgetTimespan" time="0.0" />
+
+      <system-out><![CDATA[Set gotten in Test: [rivest, test, dot, furrukh]
+[rivest, test, dot, furrukh]
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="LAPTOP-37F339O8" id="1" name="FilterTest" package="twitter" skipped="0" tests="12" time="0.09" timestamp="2022-03-12T17:24:29">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes" />
+
+          <property name="user.country.format" value="PK" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946" />
+
+          <property name="java.runtime.version" value="1.8.0_281-b09" />
+
+          <property name="user.name" value="furru" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_281" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_281\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\furru\eclipse-workspace\ps2-tweets\grader.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="final.grader.jar" value="ps2-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.281-b09" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\furru" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Softwares/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;D:/Softwares/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\ProgramData\ComposerSetup\bin;C:\Users\furru\AppData\Local\Microsoft\WindowsApps;C:\Users\furru\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\furru\AppData\Local\atom\bin;C:\Users\furru\AppData\Local\Android\Sdk\platform-tools;C:\Users\furru\AppData\Local\Android\Sdk;C:\Users\furru\AppData\Roaming\npm;D:\xampp\php\;C:\Users\furru\AppData\Roaming\Composer\vendor\bin;C:\Users\furru\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps2-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner twitter.FilterTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\TEST-twitter.FilterTest.xml crashfile=C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\junitvmwatcher5120983060395451783.properties propsfile=C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\junit1850134529493671941.properties" />
+
+          <property name="java.class.path" value="C:\Users\furru\eclipse-workspace\ps2-tweets\lib\junit-4.12.jar;C:\Users\furru\eclipse-workspace\ps2-tweets\lib\hamcrest-core-1.3.jar;C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\bin-tests-student;C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\bin-impls-student;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-launcher.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.9 compiled on September 27 2020" />
+
+          <property name="project.name" value="ps2-tweets" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running your tests on your implementation." />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.io.tmpdir" value="C:\Users\furru\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\furru\eclipse-workspace\ps2-tweets" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps2" />
+
+          <property name="basedir" value="C:\Users\furru\eclipse-workspace\ps2-tweets" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="twitter.FilterTest" name="testContaining_noWords" time="0.009" />
+
+      <testcase classname="twitter.FilterTest" name="testinTimespan" time="0.001" />
+
+      <testcase classname="twitter.FilterTest" name="testContaining" time="0.0" />
+
+      <testcase classname="twitter.FilterTest" name="testAssertionsEnabled" time="0.0" />
+
+      <testcase classname="twitter.FilterTest" name="testWrittenByMultipleTweetsSingleResult" time="0.0" />
+
+      <testcase classname="twitter.FilterTest" name="testWrittenBy_ManyTweets" time="0.0" />
+
+      <testcase classname="twitter.FilterTest" name="testinTimespan_MorethanOneTweetinTimespan" time="0.0" />
+
+      <testcase classname="twitter.FilterTest" name="testInTimespanMultipleTweetsMultipleResults" time="0.0" />
+
+      <testcase classname="twitter.FilterTest" name="testWrittenBy_OneTweet" time="0.0" />
+
+      <testcase classname="twitter.FilterTest" name="testWrittenBy_OneTweetUppercase" time="0.0" />
+
+      <testcase classname="twitter.FilterTest" name="testinTimespan_oneTweetinTimespan" time="0.0" />
+
+      <testcase classname="twitter.FilterTest" name="testContaining_MoreWords" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="LAPTOP-37F339O8" id="2" name="SocialNetworkTest" package="twitter" skipped="0" tests="9" time="0.09" timestamp="2022-03-12T17:24:29">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes" />
+
+          <property name="user.country.format" value="PK" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946" />
+
+          <property name="java.runtime.version" value="1.8.0_281-b09" />
+
+          <property name="user.name" value="furru" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_281" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_281\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\furru\eclipse-workspace\ps2-tweets\grader.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="final.grader.jar" value="ps2-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.281-b09" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\furru" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Softwares/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;D:/Softwares/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\ProgramData\ComposerSetup\bin;C:\Users\furru\AppData\Local\Microsoft\WindowsApps;C:\Users\furru\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\furru\AppData\Local\atom\bin;C:\Users\furru\AppData\Local\Android\Sdk\platform-tools;C:\Users\furru\AppData\Local\Android\Sdk;C:\Users\furru\AppData\Roaming\npm;D:\xampp\php\;C:\Users\furru\AppData\Roaming\Composer\vendor\bin;C:\Users\furru\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps2-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner twitter.SocialNetworkTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\TEST-twitter.SocialNetworkTest.xml crashfile=C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\junitvmwatcher7302613162092718446.properties propsfile=C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\junit5209692502682944371.properties" />
+
+          <property name="java.class.path" value="C:\Users\furru\eclipse-workspace\ps2-tweets\lib\junit-4.12.jar;C:\Users\furru\eclipse-workspace\ps2-tweets\lib\hamcrest-core-1.3.jar;C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\bin-tests-student;C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\bin-impls-student;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-launcher.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.9 compiled on September 27 2020" />
+
+          <property name="project.name" value="ps2-tweets" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running your tests on your implementation." />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.io.tmpdir" value="C:\Users\furru\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\furru\eclipse-workspace\ps2-tweets" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps2" />
+
+          <property name="basedir" value="C:\Users\furru\eclipse-workspace\ps2-tweets" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="twitter.SocialNetworkTest" name="testInfluencer_ManyTweetsManyFollower" time="0.007" />
+
+      <testcase classname="twitter.SocialNetworkTest" name="GuessFollowsGraphMoreTweetsMoreFollowing" time="0.002" />
+
+      <testcase classname="twitter.SocialNetworkTest" name="testInfluencersGraphOneUserNotFollowing" time="0.0" />
+
+      <testcase classname="twitter.SocialNetworkTest" name="testGuessFollowsGraphEmpty" time="0.0" />
+
+      <testcase classname="twitter.SocialNetworkTest" name="testAssertionsEnabled" time="0.0" />
+
+      <testcase classname="twitter.SocialNetworkTest" name="GuessFollowsGraphTwoTweetOneFollowing" time="0.001" />
+
+      <testcase classname="twitter.SocialNetworkTest" name="testGuessFollowsGraphOneTweetOneFollowing" time="0.0" />
+
+      <testcase classname="twitter.SocialNetworkTest" name="testInfluencersEmpty" time="0.0" />
+
+      <testcase classname="twitter.SocialNetworkTest" name="testInfluencer_OneTweetOneFollower" time="0.0" />
+
+      <system-out><![CDATA[followsGraph gotten{alyssa=[smith, jhon], tim=[alyssa], furrukh=[alyssa, smith, jhon]}
+Loop hitting :[[smith, jhon], [alyssa], [alyssa, smith, jhon]]
+Loop hitting :[[smith, jhon], [alyssa], [alyssa, smith, jhon]]
+Loop hitting :[[smith, jhon], [alyssa], [alyssa, smith, jhon]]
+keySet loop hitting
+keySet loop hitting
+keySet loop hitting
+followers before sorting : {alyssa=2, smith=2, tim=0, jhon=2, furrukh=0}
+influencers before sorting: [smith, jhon, alyssa, tim, furrukh]
+inside override method, Value of string one: jhon
+2
+2
+inside override method, Value of string one: alyssa
+2
+2
+inside override method, Value of string one: tim
+0
+2
+inside override method, Value of string one: furrukh
+0
+0
+influencers : [smith, jhon, alyssa, tim, furrukh]
+followsGraph gotten{furrukh=[]}
+Loop hitting :[[]]
+keySet loop hitting
+followers before sorting : {furrukh=0}
+influencers before sorting: [furrukh]
+influencers : [furrukh]
+followsGraph gotten{}
+followers before sorting : {}
+influencers before sorting: []
+influencers : []
+followsGraph gotten{furrukh=[alyssa]}
+Loop hitting :[[alyssa]]
+keySet loop hitting
+followers before sorting : {alyssa=1, furrukh=0}
+influencers before sorting: [alyssa, furrukh]
+inside override method, Value of string one: furrukh
+0
+1
+influencers : [alyssa, furrukh]
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="2" hostname="LAPTOP-37F339O8" id="3" name="ExtractTestRunner" package="twitter.staff" skipped="0" tests="13" time="0.133" timestamp="2022-03-12T17:24:34">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes" />
+
+          <property name="user.country.format" value="PK" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946" />
+
+          <property name="java.runtime.version" value="1.8.0_281-b09" />
+
+          <property name="user.name" value="furru" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_281" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_281\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\furru\eclipse-workspace\ps2-tweets\grader.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="final.grader.jar" value="ps2-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.281-b09" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\furru" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Softwares/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;D:/Softwares/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\ProgramData\ComposerSetup\bin;C:\Users\furru\AppData\Local\Microsoft\WindowsApps;C:\Users\furru\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\furru\AppData\Local\atom\bin;C:\Users\furru\AppData\Local\Android\Sdk\platform-tools;C:\Users\furru\AppData\Local\Android\Sdk;C:\Users\furru\AppData\Roaming\npm;D:\xampp\php\;C:\Users\furru\AppData\Roaming\Composer\vendor\bin;C:\Users\furru\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps2-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner twitter.staff.ExtractTestRunner skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\TEST-twitter.staff.ExtractTestRunner.xml crashfile=C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\junitvmwatcher3338985433045255542.properties propsfile=C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\junit8327677576118603734.properties" />
+
+          <property name="java.class.path" value="C:\Users\furru\eclipse-workspace\ps2-tweets\lib\junit-4.12.jar;C:\Users\furru\eclipse-workspace\ps2-tweets\lib\hamcrest-core-1.3.jar;C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\bin-impls-staff-final;C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\bin-tests-student;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-launcher.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.9 compiled on September 27 2020" />
+
+          <property name="project.name" value="ps2-tweets" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running your tests against our good and bad implementations" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.io.tmpdir" value="C:\Users\furru\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\furru\eclipse-workspace\ps2-tweets" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps2" />
+
+          <property name="basedir" value="C:\Users\furru\eclipse-workspace\ps2-tweets" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="twitter.staff.ExtractTestRunner" name="yourTests_staffBadImpl_getMentionedUsersOnlyReturnsFirstMentionBug" time="0.039" />
+
+      <testcase classname="twitter.staff.ExtractTestRunner" name="yourTests_staffBadImpl_getMentionedUsersUsernameEndedWithPunctuationBug" time="0.003" />
+
+      <testcase classname="twitter.staff.ExtractTestRunner" name="yourTests_staffBadImpl_getTimespanMultipleSameTimestampBug" time="0.003" />
+
+      <testcase classname="twitter.staff.ExtractTestRunner" name="yourTests_staffBadImpl_getTimespanEmptyListBug" time="0.002" />
+
+      <testcase classname="twitter.staff.ExtractTestRunner" name="yourTests_staffBadImpl_getTimespanReturnsGarbageBug" time="0.003" />
+
+      <testcase classname="twitter.staff.ExtractTestRunner" name="yourTests_staffBadImpl_getMentionedUsersMustBeCaseInsensitiveBug" time="0.002" />
+
+      <testcase classname="twitter.staff.ExtractTestRunner" name="yourTests_staffBadImpl_getMentionedUsersRepeatedAtSignBug" time="0.002" />
+
+      <testcase classname="twitter.staff.ExtractTestRunner" name="yourTests_staffBadImpl_getMentionedUsersEmailAddressBug" time="0.002" />
+
+      <testcase classname="twitter.staff.ExtractTestRunner" name="yourTests_staffBadImpl_getTimespanAssumesInOrderBug" time="0.001" />
+
+      <testcase classname="twitter.staff.ExtractTestRunner" name="yourTests_staffGoodImpl_getTimespanEmptyListUsesToday_getMentionedUsersMixesUpCase" time="0.005">
+          <failure message="Some of your tests failed when run against our correct implementation: 9 tests ran with 2 failures in 1 ms.&#xa;java.lang.AssertionError: expected:&lt;2&gt; but was:&lt;4&gt;&#xd;&#xa;    ...&#xd;&#xa;    at twitter.ExtractTest.testGetMentionedUsers_UserNamesEndedWithPunctuationBug(ExtractTest.java:128)&#xd;&#xa;    ...&#xd;&#xa;java.lang.AssertionError: expected mention of usernames in the set&#xd;&#xa;    ...&#xd;&#xa;    at twitter.ExtractTest.testGetMentioned_onePlusTweetOnePlusMention(ExtractTest.java:114)&#xd;&#xa;    ...&#xa;----" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Some of your tests failed when run against our correct implementation: 9 tests ran with 2 failures in 1 ms.
+java.lang.AssertionError: expected:&lt;2&gt; but was:&lt;4&gt;
+    ...
+    at twitter.ExtractTest.testGetMentionedUsers_UserNamesEndedWithPunctuationBug(ExtractTest.java:128)
+    ...
+java.lang.AssertionError: expected mention of usernames in the set
+    ...
+    at twitter.ExtractTest.testGetMentioned_onePlusTweetOnePlusMention(ExtractTest.java:114)
+    ...
+----
+	at twitter.staff.TestHelpers.assertSuccess(TestHelpers.java:50)
+	at twitter.staff.ExtractTestRunner.yourTests_staffGoodImpl_getTimespanEmptyListUsesToday_getMentionedUsersMixesUpCase(ExtractTestRunner.java:28)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.ExtractTestRunner" name="yourTests_staffGoodImpl_getTimespanEmptyListUsesOldDate_getMentionedUsersLowerCasesEverything" time="0.002">
+          <failure message="Some of your tests failed when run against our correct implementation: 9 tests ran with 1 failure in 1 ms.&#xa;java.lang.AssertionError: expected:&lt;2&gt; but was:&lt;4&gt;&#xd;&#xa;    ...&#xd;&#xa;    at twitter.ExtractTest.testGetMentionedUsers_UserNamesEndedWithPunctuationBug(ExtractTest.java:128)&#xd;&#xa;    ...&#xa;----" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Some of your tests failed when run against our correct implementation: 9 tests ran with 1 failure in 1 ms.
+java.lang.AssertionError: expected:&lt;2&gt; but was:&lt;4&gt;
+    ...
+    at twitter.ExtractTest.testGetMentionedUsers_UserNamesEndedWithPunctuationBug(ExtractTest.java:128)
+    ...
+----
+	at twitter.staff.TestHelpers.assertSuccess(TestHelpers.java:50)
+	at twitter.staff.ExtractTestRunner.yourTests_staffGoodImpl_getTimespanEmptyListUsesOldDate_getMentionedUsersLowerCasesEverything(ExtractTestRunner.java:33)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.ExtractTestRunner" name="yourTests_staffBadImpl_getTimespanIndexOutOfBoundsBug" time="0.001" />
+
+      <testcase classname="twitter.staff.ExtractTestRunner" name="yourTests_staffBadImpl_getTimespanSingleTweetBug" time="0.002" />
+
+      <system-out><![CDATA[Set gotten in Test: [dot]
+[dot]
+Set gotten in Test: [rivest, test's, furrukh, dot.test]
+[rivest, test's, furrukh, dot.test]
+Set gotten in Test: [rIvEsT, fUrRuKh, tEsT, dOt]
+[rIvEsT, fUrRuKh, tEsT, dOt]
+Set gotten in Test: [rIvEsT, fUrRuKh, tEsT, dOt]
+[rIvEsT, fUrRuKh, tEsT, dOt]
+Set gotten in Test: [rIvEsT, fUrRuKh, tEsT, dOt]
+[rIvEsT, fUrRuKh, tEsT, dOt]
+Set gotten in Test: [test, dot, Rivest, furrukh]
+[test, dot, Rivest, furrukh]
+Set gotten in Test: [rivest, test, dot, mikes, furrukh]
+[rivest, test, dot, mikes, furrukh]
+Set gotten in Test: [rIvEsT, fUrRuKh, tEsT, dOt]
+[rIvEsT, fUrRuKh, tEsT, dOt]
+Set gotten in Test: [rIvEsT, fUrRuKh, tEsT, dOt]
+[rIvEsT, fUrRuKh, tEsT, dOt]
+Set gotten in Test: [rivest, test, dot, furrukh]
+[rivest, test, dot, furrukh]
+Set gotten in Test: [rIvEsT, fUrRuKh, tEsT, dOt]
+[rIvEsT, fUrRuKh, tEsT, dOt]
+Set gotten in Test: [rIvEsT, fUrRuKh, tEsT, dOt]
+[rIvEsT, fUrRuKh, tEsT, dOt]
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="2" hostname="LAPTOP-37F339O8" id="4" name="FilterTestRunner" package="twitter.staff" skipped="0" tests="12" time="0.159" timestamp="2022-03-12T17:24:35">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes" />
+
+          <property name="user.country.format" value="PK" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946" />
+
+          <property name="java.runtime.version" value="1.8.0_281-b09" />
+
+          <property name="user.name" value="furru" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_281" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_281\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\furru\eclipse-workspace\ps2-tweets\grader.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="final.grader.jar" value="ps2-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.281-b09" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\furru" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Softwares/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;D:/Softwares/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\ProgramData\ComposerSetup\bin;C:\Users\furru\AppData\Local\Microsoft\WindowsApps;C:\Users\furru\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\furru\AppData\Local\atom\bin;C:\Users\furru\AppData\Local\Android\Sdk\platform-tools;C:\Users\furru\AppData\Local\Android\Sdk;C:\Users\furru\AppData\Roaming\npm;D:\xampp\php\;C:\Users\furru\AppData\Roaming\Composer\vendor\bin;C:\Users\furru\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps2-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner twitter.staff.FilterTestRunner skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\TEST-twitter.staff.FilterTestRunner.xml crashfile=C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\junitvmwatcher3704071743646470360.properties propsfile=C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\junit434187575149881037.properties" />
+
+          <property name="java.class.path" value="C:\Users\furru\eclipse-workspace\ps2-tweets\lib\junit-4.12.jar;C:\Users\furru\eclipse-workspace\ps2-tweets\lib\hamcrest-core-1.3.jar;C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\bin-impls-staff-final;C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\bin-tests-student;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-launcher.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.9 compiled on September 27 2020" />
+
+          <property name="project.name" value="ps2-tweets" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running your tests against our good and bad implementations" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.io.tmpdir" value="C:\Users\furru\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\furru\eclipse-workspace\ps2-tweets" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps2" />
+
+          <property name="basedir" value="C:\Users\furru\eclipse-workspace\ps2-tweets" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="twitter.staff.FilterTestRunner" name="yourTests_staffBadImpl_inTimespanExclusiveTimespanBug" time="0.052" />
+
+      <testcase classname="twitter.staff.FilterTestRunner" name="yourTests_staffBadImpl_containingReturnsSubstringMatchBug" time="0.008">
+          <failure message="None of your tests failed when run against our broken implementation: 12 tests ran with 0 failures in 1 ms." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: None of your tests failed when run against our broken implementation: 12 tests ran with 0 failures in 1 ms.
+	at twitter.staff.TestHelpers.assertFailure(TestHelpers.java:59)
+	at twitter.staff.FilterTestRunner.yourTests_staffBadImpl_containingReturnsSubstringMatchBug(FilterTestRunner.java:94)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.FilterTestRunner" name="yourTests_staffGoodImpl_Filter" time="0.002" />
+
+      <testcase classname="twitter.staff.FilterTestRunner" name="yourTests_staffBadImpl_containingReturnsAndNotOrBug" time="0.003" />
+
+      <testcase classname="twitter.staff.FilterTestRunner" name="yourTests_staffBadImpl_writtenByIndexOutOfBoundsBug" time="0.003">
+          <failure message="None of your tests failed when run against our broken implementation: 12 tests ran with 0 failures in 2 ms." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: None of your tests failed when run against our broken implementation: 12 tests ran with 0 failures in 2 ms.
+	at twitter.staff.TestHelpers.assertFailure(TestHelpers.java:59)
+	at twitter.staff.FilterTestRunner.yourTests_staffBadImpl_writtenByIndexOutOfBoundsBug(FilterTestRunner.java:48)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.FilterTestRunner" name="yourTests_staffBadImpl_containingReturnsFullListBug" time="0.003" />
+
+      <testcase classname="twitter.staff.FilterTestRunner" name="yourTests_staffBadImpl_inTimespanReturnsFullListBug" time="0.003" />
+
+      <testcase classname="twitter.staff.FilterTestRunner" name="yourTests_staffBadImpl_writtenByReturnsOnlyFirstResultBug" time="0.002" />
+
+      <testcase classname="twitter.staff.FilterTestRunner" name="yourTests_staffBadImpl_writtenByMustBeCaseInsensitiveBug" time="0.003" />
+
+      <testcase classname="twitter.staff.FilterTestRunner" name="yourTests_staffBadImpl_inTimespanAssumesInOrderBug" time="0.003" />
+
+      <testcase classname="twitter.staff.FilterTestRunner" name="yourTests_staffBadImpl_writtenByReturnsFullListBug" time="0.002" />
+
+      <testcase classname="twitter.staff.FilterTestRunner" name="yourTests_staffBadImpl_containingMustBeCaseInsensitiveBug" time="0.002" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="LAPTOP-37F339O8" id="5" name="GradingExtractTest" package="twitter.staff" skipped="0" tests="21" time="0.206" timestamp="2022-03-12T17:24:32">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes" />
+
+          <property name="user.country.format" value="PK" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946" />
+
+          <property name="java.runtime.version" value="1.8.0_281-b09" />
+
+          <property name="user.name" value="furru" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_281" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_281\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\furru\eclipse-workspace\ps2-tweets\grader.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="final.grader.jar" value="ps2-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.281-b09" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\furru" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Softwares/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;D:/Softwares/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\ProgramData\ComposerSetup\bin;C:\Users\furru\AppData\Local\Microsoft\WindowsApps;C:\Users\furru\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\furru\AppData\Local\atom\bin;C:\Users\furru\AppData\Local\Android\Sdk\platform-tools;C:\Users\furru\AppData\Local\Android\Sdk;C:\Users\furru\AppData\Roaming\npm;D:\xampp\php\;C:\Users\furru\AppData\Roaming\Composer\vendor\bin;C:\Users\furru\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps2-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner twitter.staff.GradingExtractTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\TEST-twitter.staff.GradingExtractTest.xml crashfile=C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\junitvmwatcher3818553615597335817.properties propsfile=C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\junit4451745202063031461.properties" />
+
+          <property name="java.class.path" value="C:\Users\furru\eclipse-workspace\ps2-tweets\lib\junit-4.12.jar;C:\Users\furru\eclipse-workspace\ps2-tweets\lib\hamcrest-core-1.3.jar;C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\bin-tests-final;C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\bin-impls-student;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-launcher.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.9 compiled on September 27 2020" />
+
+          <property name="project.name" value="ps2-tweets" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running our tests against your implementation" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.io.tmpdir" value="C:\Users\furru\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\furru\eclipse-workspace\ps2-tweets" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps2" />
+
+          <property name="basedir" value="C:\Users\furru\eclipse-workspace\ps2-tweets" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetMentionedUsersSingleMentionSingleTweet" time="0.003" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetTimespanMultipleStampsWithDuplicates" time="0.008" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetMentionedUsersEmailAddress" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetMentionedUsersUsernameEndedByPunctuation" time="0.001" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetMentionedUsersMultipleMentionsMultipleTweets" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetMentionedUsersSingleMentionMultipleTweetsMustBeCaseInsensitive" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetMentionedUsersUsernameIsHyphenated" time="0.001" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetMentionedUsersInvalidFollowingCharacters" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetMentionedUsersUnderscores" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetTimespanTwoDifferentStamps" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetTimespanMultipleStampsWithoutDuplicates" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetMentionedUsersEmptyList" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetTimespanTwoDuplicateStamps" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetMentionedUsersPreceededByPunctuation" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetTimespanEmptyListAlwaysReturnsZeroLengthTimespan" time="0.114" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetMentionedUsersSingleAtSignNoFollowingUsername" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetMentionedUsersMultipleMentionsSingleTweet" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetMentionedUsersSingleMentionMultipleTweets" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetTimespanSingleTweet" time="0.001" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetMentionedUsersNoMentionsSingleTweet" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetMentionedUsersMultipleAtSigns" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="LAPTOP-37F339O8" id="6" name="GradingFilterTest" package="twitter.staff" skipped="0" tests="21" time="0.088" timestamp="2022-03-12T17:24:33">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes" />
+
+          <property name="user.country.format" value="PK" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946" />
+
+          <property name="java.runtime.version" value="1.8.0_281-b09" />
+
+          <property name="user.name" value="furru" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_281" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_281\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\furru\eclipse-workspace\ps2-tweets\grader.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="final.grader.jar" value="ps2-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.281-b09" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\furru" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Softwares/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;D:/Softwares/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\ProgramData\ComposerSetup\bin;C:\Users\furru\AppData\Local\Microsoft\WindowsApps;C:\Users\furru\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\furru\AppData\Local\atom\bin;C:\Users\furru\AppData\Local\Android\Sdk\platform-tools;C:\Users\furru\AppData\Local\Android\Sdk;C:\Users\furru\AppData\Roaming\npm;D:\xampp\php\;C:\Users\furru\AppData\Roaming\Composer\vendor\bin;C:\Users\furru\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps2-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner twitter.staff.GradingFilterTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\TEST-twitter.staff.GradingFilterTest.xml crashfile=C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\junitvmwatcher3353084417058459893.properties propsfile=C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\junit621902163136302548.properties" />
+
+          <property name="java.class.path" value="C:\Users\furru\eclipse-workspace\ps2-tweets\lib\junit-4.12.jar;C:\Users\furru\eclipse-workspace\ps2-tweets\lib\hamcrest-core-1.3.jar;C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\bin-tests-final;C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\bin-impls-student;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-launcher.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.9 compiled on September 27 2020" />
+
+          <property name="project.name" value="ps2-tweets" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running our tests against your implementation" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.io.tmpdir" value="C:\Users\furru\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\furru\eclipse-workspace\ps2-tweets" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps2" />
+
+          <property name="basedir" value="C:\Users\furru\eclipse-workspace\ps2-tweets" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testContainingPunctuation" time="0.011" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testWrittenByUnderscores" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testContainingNoResults" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testContainingNoWordsToCheck" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testContainingMultipleSearchWords" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testContainingNoFullWordMatch" time="0.003">
+          <failure message="expected empty list" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected empty list
+	at twitter.staff.GradingFilterTest.testContainingNoFullWordMatch(GradingFilterTest.java:346)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testInTimespanEmptyList" time="0.001" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testWrittenByEmptyList" time="0.001" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testInTimespanSingleTweetTimespanInexact" time="0.001" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testContainingMustBeCaseInsensitive" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testContainingEmptyList" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testWrittenByMustBeCaseInsensitive" time="0.001" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testContainingSingleSearchWordSingleResult" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testInTimespanNoTweetsInSpan" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testInTimespanMultipleTweetsInexact" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testContainingSingleSearchWordMultipleResult" time="0.001" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testWrittenByAuthorNotFound" time="0.001" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testInTimespanTweetsOutOfOrder" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testInTimespanMultipleTweetsExact" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testWrittenByAuthorFound" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testInTimespanSingleTweetTimespanExact" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="LAPTOP-37F339O8" id="7" name="GradingSocialNetworkTest" package="twitter.staff" skipped="0" tests="14" time="0.088" timestamp="2022-03-12T17:24:34">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes" />
+
+          <property name="user.country.format" value="PK" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946" />
+
+          <property name="java.runtime.version" value="1.8.0_281-b09" />
+
+          <property name="user.name" value="furru" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_281" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_281\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\furru\eclipse-workspace\ps2-tweets\grader.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="final.grader.jar" value="ps2-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.281-b09" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\furru" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Softwares/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;D:/Softwares/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\ProgramData\ComposerSetup\bin;C:\Users\furru\AppData\Local\Microsoft\WindowsApps;C:\Users\furru\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\furru\AppData\Local\atom\bin;C:\Users\furru\AppData\Local\Android\Sdk\platform-tools;C:\Users\furru\AppData\Local\Android\Sdk;C:\Users\furru\AppData\Roaming\npm;D:\xampp\php\;C:\Users\furru\AppData\Roaming\Composer\vendor\bin;C:\Users\furru\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps2-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner twitter.staff.GradingSocialNetworkTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\TEST-twitter.staff.GradingSocialNetworkTest.xml crashfile=C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\junitvmwatcher6187983851919523002.properties propsfile=C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\junit2140413018851214560.properties" />
+
+          <property name="java.class.path" value="C:\Users\furru\eclipse-workspace\ps2-tweets\lib\junit-4.12.jar;C:\Users\furru\eclipse-workspace\ps2-tweets\lib\hamcrest-core-1.3.jar;C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\bin-tests-final;C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\bin-impls-student;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-launcher.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.9 compiled on September 27 2020" />
+
+          <property name="project.name" value="ps2-tweets" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running our tests against your implementation" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.io.tmpdir" value="C:\Users\furru\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\furru\eclipse-workspace\ps2-tweets" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps2" />
+
+          <property name="basedir" value="C:\Users\furru\eclipse-workspace\ps2-tweets" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="twitter.staff.GradingSocialNetworkTest" name="testInfluencersGraphOneUserNoFollowing" time="0.003" />
+
+      <testcase classname="twitter.staff.GradingSocialNetworkTest" name="testInfluencersTwoUsersOneFollowing" time="0.001" />
+
+      <testcase classname="twitter.staff.GradingSocialNetworkTest" name="testGuessFollowsGraphUserMentionsSelf" time="0.006">
+          <failure message="unexpected user following self" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: unexpected user following self
+	at twitter.staff.GradingSocialNetworkTest.testGuessFollowsGraphUserMentionsSelf(GradingSocialNetworkTest.java:73)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.GradingSocialNetworkTest" name="testInfluencersMultipleUsersSomeSameFollowerCounts" time="0.001" />
+
+      <testcase classname="twitter.staff.GradingSocialNetworkTest" name="testGuessFollowsGraphEmptyList" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingSocialNetworkTest" name="testInfluencersMultipleUsersAllSameFollowerCounts" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingSocialNetworkTest" name="testInfluencersEmptyGraph" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingSocialNetworkTest" name="testInfluencersMultipleUsersAllDifferentFollowerCounts" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingSocialNetworkTest" name="testGuessFollowsGraphSingleTweetAtMention" time="0.001" />
+
+      <testcase classname="twitter.staff.GradingSocialNetworkTest" name="testGuessFollowsGraphMustHaveNoNonexistentUsers" time="0.001" />
+
+      <testcase classname="twitter.staff.GradingSocialNetworkTest" name="testGuessFollowsGraphMustBeCaseInsensitive" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingSocialNetworkTest" name="testGuessFollowsGraphNoConnections" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingSocialNetworkTest" name="testGuessFollowsGraphHasConnections" time="0.001" />
+
+      <testcase classname="twitter.staff.GradingSocialNetworkTest" name="testInfluencersMustBeCaseInsensitive" time="0.001" />
+
+      <system-out><![CDATA[followsGraph gotten{a_lyssp_=[]}
+Loop hitting :[[]]
+keySet loop hitting
+followers before sorting : {a_lyssp_=0}
+influencers before sorting: [a_lyssp_]
+influencers : [a_lyssp_]
+followsGraph gotten{bbitdiddle=[a_lyssp_]}
+Loop hitting :[[a_lyssp_]]
+keySet loop hitting
+followers before sorting : {bbitdiddle=0, a_lyssp_=1}
+influencers before sorting: [a_lyssp_, bbitdiddle]
+inside override method, Value of string one: bbitdiddle
+0
+1
+influencers : [a_lyssp_, bbitdiddle]
+followsGraph gotten{bbitdiddle=[], bob=[a_lyssp_, alice], a_lyssp_=[], alice=[bob, a_lyssp_]}
+Loop hitting :[[], [a_lyssp_, alice], [], [bob, a_lyssp_]]
+Loop hitting :[[], [a_lyssp_, alice], [], [bob, a_lyssp_]]
+Loop hitting :[[], [a_lyssp_, alice], [], [bob, a_lyssp_]]
+Loop hitting :[[], [a_lyssp_, alice], [], [bob, a_lyssp_]]
+keySet loop hitting
+keySet loop hitting
+keySet loop hitting
+keySet loop hitting
+followers before sorting : {bbitdiddle=0, bob=1, a_lyssp_=2, alice=1}
+influencers before sorting: [a_lyssp_, alice, bob, bbitdiddle]
+inside override method, Value of string one: alice
+1
+2
+inside override method, Value of string one: bob
+1
+1
+inside override method, Value of string one: bbitdiddle
+0
+1
+influencers : [a_lyssp_, alice, bob, bbitdiddle]
+followsGraph gotten{bbitdiddle=[], bob=[], a_lyssp_=[], alice=[]}
+Loop hitting :[[], [], [], []]
+Loop hitting :[[], [], [], []]
+Loop hitting :[[], [], [], []]
+Loop hitting :[[], [], [], []]
+keySet loop hitting
+keySet loop hitting
+keySet loop hitting
+keySet loop hitting
+followers before sorting : {bbitdiddle=0, bob=0, a_lyssp_=0, alice=0}
+influencers before sorting: [bbitdiddle, bob, a_lyssp_, alice]
+inside override method, Value of string one: bob
+0
+0
+inside override method, Value of string one: a_lyssp_
+0
+0
+inside override method, Value of string one: alice
+0
+0
+influencers : [bbitdiddle, bob, a_lyssp_, alice]
+followsGraph gotten{}
+followers before sorting : {}
+influencers before sorting: []
+influencers : []
+followsGraph gotten{evalu_=[a_lyssp_, alice], a_lyssp_=[evalu_, alice], _reasoner=[a_lyssp_, alice]}
+Loop hitting :[[a_lyssp_, alice], [evalu_, alice], [a_lyssp_, alice]]
+Loop hitting :[[a_lyssp_, alice], [evalu_, alice], [a_lyssp_, alice]]
+Loop hitting :[[a_lyssp_, alice], [evalu_, alice], [a_lyssp_, alice]]
+keySet loop hitting
+keySet loop hitting
+keySet loop hitting
+followers before sorting : {evalu_=1, a_lyssp_=2, alice=3, _reasoner=0}
+influencers before sorting: [a_lyssp_, alice, evalu_, _reasoner]
+inside override method, Value of string one: alice
+3
+2
+inside override method, Value of string one: evalu_
+1
+3
+inside override method, Value of string one: evalu_
+1
+2
+inside override method, Value of string one: _reasoner
+0
+2
+inside override method, Value of string one: _reasoner
+0
+1
+influencers : [alice, a_lyssp_, evalu_, _reasoner]
+followsGraph gotten{bbitdiddle=[a_lyssp_], A_LYSSP_=[]}
+Loop hitting :[[a_lyssp_], []]
+Loop hitting :[[a_lyssp_], []]
+keySet loop hitting
+keySet loop hitting
+followers before sorting : {bbitdiddle=0, A_LYSSP_=0, a_lyssp_=1}
+influencers before sorting: [a_lyssp_, bbitdiddle]
+inside override method, Value of string one: bbitdiddle
+0
+1
+influencers : [a_lyssp_, bbitdiddle]
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="LAPTOP-37F339O8" id="8" name="OriginalExtractTest" package="twitter.staff" skipped="0" tests="3" time="0.089" timestamp="2022-03-12T17:24:27">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes" />
+
+          <property name="user.country.format" value="PK" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946" />
+
+          <property name="java.runtime.version" value="1.8.0_281-b09" />
+
+          <property name="user.name" value="furru" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_281" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_281\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\furru\eclipse-workspace\ps2-tweets\grader.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="final.grader.jar" value="ps2-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.281-b09" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\furru" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Softwares/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;D:/Softwares/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\ProgramData\ComposerSetup\bin;C:\Users\furru\AppData\Local\Microsoft\WindowsApps;C:\Users\furru\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\furru\AppData\Local\atom\bin;C:\Users\furru\AppData\Local\Android\Sdk\platform-tools;C:\Users\furru\AppData\Local\Android\Sdk;C:\Users\furru\AppData\Roaming\npm;D:\xampp\php\;C:\Users\furru\AppData\Roaming\Composer\vendor\bin;C:\Users\furru\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps2-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner twitter.staff.OriginalExtractTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\TEST-twitter.staff.OriginalExtractTest.xml crashfile=C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\junitvmwatcher4350840776843777682.properties propsfile=C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\junit3723450864668676205.properties" />
+
+          <property name="java.class.path" value="C:\Users\furru\eclipse-workspace\ps2-tweets\lib\junit-4.12.jar;C:\Users\furru\eclipse-workspace\ps2-tweets\lib\hamcrest-core-1.3.jar;C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\bin-tests-beta;C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\bin-impls-student;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-launcher.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.9 compiled on September 27 2020" />
+
+          <property name="project.name" value="ps2-tweets" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running the tests we gave you with the problem set on your implementation." />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.io.tmpdir" value="C:\Users\furru\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\furru\eclipse-workspace\ps2-tweets" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps2" />
+
+          <property name="basedir" value="C:\Users\furru\eclipse-workspace\ps2-tweets" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="twitter.staff.OriginalExtractTest" name="testGetMentionedUsersNoMention" time="0.006" />
+
+      <testcase classname="twitter.staff.OriginalExtractTest" name="testGetTimespanTwoTweets" time="0.007" />
+
+      <testcase classname="twitter.staff.OriginalExtractTest" name="testAssertionsEnabled" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="LAPTOP-37F339O8" id="9" name="OriginalFilterTest" package="twitter.staff" skipped="0" tests="4" time="0.086" timestamp="2022-03-12T17:24:27">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes" />
+
+          <property name="user.country.format" value="PK" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946" />
+
+          <property name="java.runtime.version" value="1.8.0_281-b09" />
+
+          <property name="user.name" value="furru" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_281" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_281\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\furru\eclipse-workspace\ps2-tweets\grader.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="final.grader.jar" value="ps2-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.281-b09" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\furru" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Softwares/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;D:/Softwares/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\ProgramData\ComposerSetup\bin;C:\Users\furru\AppData\Local\Microsoft\WindowsApps;C:\Users\furru\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\furru\AppData\Local\atom\bin;C:\Users\furru\AppData\Local\Android\Sdk\platform-tools;C:\Users\furru\AppData\Local\Android\Sdk;C:\Users\furru\AppData\Roaming\npm;D:\xampp\php\;C:\Users\furru\AppData\Roaming\Composer\vendor\bin;C:\Users\furru\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps2-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner twitter.staff.OriginalFilterTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\TEST-twitter.staff.OriginalFilterTest.xml crashfile=C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\junitvmwatcher8765012649094136466.properties propsfile=C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\junit2148658003105466070.properties" />
+
+          <property name="java.class.path" value="C:\Users\furru\eclipse-workspace\ps2-tweets\lib\junit-4.12.jar;C:\Users\furru\eclipse-workspace\ps2-tweets\lib\hamcrest-core-1.3.jar;C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\bin-tests-beta;C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\bin-impls-student;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-launcher.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.9 compiled on September 27 2020" />
+
+          <property name="project.name" value="ps2-tweets" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running the tests we gave you with the problem set on your implementation." />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.io.tmpdir" value="C:\Users\furru\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\furru\eclipse-workspace\ps2-tweets" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps2" />
+
+          <property name="basedir" value="C:\Users\furru\eclipse-workspace\ps2-tweets" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="twitter.staff.OriginalFilterTest" name="testContaining" time="0.007" />
+
+      <testcase classname="twitter.staff.OriginalFilterTest" name="testAssertionsEnabled" time="0.001" />
+
+      <testcase classname="twitter.staff.OriginalFilterTest" name="testWrittenByMultipleTweetsSingleResult" time="0.0" />
+
+      <testcase classname="twitter.staff.OriginalFilterTest" name="testInTimespanMultipleTweetsMultipleResults" time="0.002" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="LAPTOP-37F339O8" id="10" name="OriginalSocialNetworkTest" package="twitter.staff" skipped="0" tests="3" time="0.068" timestamp="2022-03-12T17:24:28">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes" />
+
+          <property name="user.country.format" value="PK" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946" />
+
+          <property name="java.runtime.version" value="1.8.0_281-b09" />
+
+          <property name="user.name" value="furru" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_281" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_281\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\furru\eclipse-workspace\ps2-tweets\grader.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="final.grader.jar" value="ps2-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.281-b09" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\furru" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Softwares/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;D:/Softwares/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\ProgramData\ComposerSetup\bin;C:\Users\furru\AppData\Local\Microsoft\WindowsApps;C:\Users\furru\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\furru\AppData\Local\atom\bin;C:\Users\furru\AppData\Local\Android\Sdk\platform-tools;C:\Users\furru\AppData\Local\Android\Sdk;C:\Users\furru\AppData\Roaming\npm;D:\xampp\php\;C:\Users\furru\AppData\Roaming\Composer\vendor\bin;C:\Users\furru\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps2-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner twitter.staff.OriginalSocialNetworkTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\TEST-twitter.staff.OriginalSocialNetworkTest.xml crashfile=C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\junitvmwatcher9034572702675913399.properties propsfile=C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\junit241747365216722222.properties" />
+
+          <property name="java.class.path" value="C:\Users\furru\eclipse-workspace\ps2-tweets\lib\junit-4.12.jar;C:\Users\furru\eclipse-workspace\ps2-tweets\lib\hamcrest-core-1.3.jar;C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\bin-tests-beta;C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\bin-impls-student;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-launcher.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.9 compiled on September 27 2020" />
+
+          <property name="project.name" value="ps2-tweets" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running the tests we gave you with the problem set on your implementation." />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.io.tmpdir" value="C:\Users\furru\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\furru\eclipse-workspace\ps2-tweets" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps2" />
+
+          <property name="basedir" value="C:\Users\furru\eclipse-workspace\ps2-tweets" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="twitter.staff.OriginalSocialNetworkTest" name="testGuessFollowsGraphEmpty" time="0.006" />
+
+      <testcase classname="twitter.staff.OriginalSocialNetworkTest" name="testAssertionsEnabled" time="0.0" />
+
+      <testcase classname="twitter.staff.OriginalSocialNetworkTest" name="testInfluencersEmpty" time="0.001" />
+
+      <system-out><![CDATA[followsGraph gotten{}
+followers before sorting : {}
+influencers before sorting: []
+influencers : []
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="6" hostname="LAPTOP-37F339O8" id="11" name="SocialNetworkTestRunner" package="twitter.staff" skipped="0" tests="14" time="0.145" timestamp="2022-03-12T17:24:35">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes" />
+
+          <property name="user.country.format" value="PK" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946" />
+
+          <property name="java.runtime.version" value="1.8.0_281-b09" />
+
+          <property name="user.name" value="furru" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_281" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_281\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\furru\eclipse-workspace\ps2-tweets\grader.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="final.grader.jar" value="ps2-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.281-b09" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\furru" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Softwares/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;D:/Softwares/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\ProgramData\ComposerSetup\bin;C:\Users\furru\AppData\Local\Microsoft\WindowsApps;C:\Users\furru\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\furru\AppData\Local\atom\bin;C:\Users\furru\AppData\Local\Android\Sdk\platform-tools;C:\Users\furru\AppData\Local\Android\Sdk;C:\Users\furru\AppData\Roaming\npm;D:\xampp\php\;C:\Users\furru\AppData\Roaming\Composer\vendor\bin;C:\Users\furru\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps2-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner twitter.staff.SocialNetworkTestRunner skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\TEST-twitter.staff.SocialNetworkTestRunner.xml crashfile=C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\junitvmwatcher4787176834097925564.properties propsfile=C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\junit1432533462426230588.properties" />
+
+          <property name="java.class.path" value="C:\Users\furru\eclipse-workspace\ps2-tweets\lib\junit-4.12.jar;C:\Users\furru\eclipse-workspace\ps2-tweets\lib\hamcrest-core-1.3.jar;C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\bin-impls-staff-final;C:\Users\furru\eclipse-workspace\ps2-tweets\.grader\bin-tests-student;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-launcher.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.9 compiled on September 27 2020" />
+
+          <property name="project.name" value="ps2-tweets" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running your tests against our good and bad implementations" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.io.tmpdir" value="C:\Users\furru\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\furru\eclipse-workspace\ps2-tweets" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps2" />
+
+          <property name="basedir" value="C:\Users\furru\eclipse-workspace\ps2-tweets" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="twitter.staff.SocialNetworkTestRunner" name="yourTests_staffGoodImpl_guessFollowsGraphAlternatingCase" time="0.045">
+          <failure message="Some of your tests failed when run against our correct implementation: 9 tests ran with 3 failures in 21 ms.&#xa;java.lang.AssertionError: expected key furrukh is there&#xd;&#xa;    ...&#xd;&#xa;    at twitter.SocialNetworkTest.GuessFollowsGraphMoreTweetsMoreFollowing(SocialNetworkTest.java:90)&#xd;&#xa;    ...&#xd;&#xa;java.lang.AssertionError: expected key furrukh is there&#xd;&#xa;    ...&#xd;&#xa;    at twitter.SocialNetworkTest.GuessFollowsGraphTwoTweetOneFollowing(SocialNetworkTest.java:65)&#xd;&#xa;    ...&#xd;&#xa;java.lang.AssertionError: expected key is there&#xd;&#xa;    ...&#xd;&#xa;    at twitter.SocialNetworkTest.testGuessFollowsGraphOneTweetOneFollowing(SocialNetworkTest.java:45)&#xd;&#xa;    ...&#xa;----" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Some of your tests failed when run against our correct implementation: 9 tests ran with 3 failures in 21 ms.
+java.lang.AssertionError: expected key furrukh is there
+    ...
+    at twitter.SocialNetworkTest.GuessFollowsGraphMoreTweetsMoreFollowing(SocialNetworkTest.java:90)
+    ...
+java.lang.AssertionError: expected key furrukh is there
+    ...
+    at twitter.SocialNetworkTest.GuessFollowsGraphTwoTweetOneFollowing(SocialNetworkTest.java:65)
+    ...
+java.lang.AssertionError: expected key is there
+    ...
+    at twitter.SocialNetworkTest.testGuessFollowsGraphOneTweetOneFollowing(SocialNetworkTest.java:45)
+    ...
+----
+	at twitter.staff.TestHelpers.assertSuccess(TestHelpers.java:50)
+	at twitter.staff.SocialNetworkTestRunner.yourTests_staffGoodImpl_guessFollowsGraphAlternatingCase(SocialNetworkTestRunner.java:39)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.SocialNetworkTestRunner" name="yourTests_staffGoodImpl_guessFollowsGraphReturnsEmptyNodes" time="0.003" />
+
+      <testcase classname="twitter.staff.SocialNetworkTestRunner" name="yourTests_staffBadImpl_guessFollowsGraphCompleteGraphBug" time="0.002" />
+
+      <testcase classname="twitter.staff.SocialNetworkTestRunner" name="yourTests_staffBadImpl_influencersMustBeCaseInsensitiveBug" time="0.002" />
+
+      <testcase classname="twitter.staff.SocialNetworkTestRunner" name="yourTests_staffBadImpl_influencersReturnsFirstInRankOnlyBug" time="0.002" />
+
+      <testcase classname="twitter.staff.SocialNetworkTestRunner" name="yourTests_staffGoodImpl_guessFollowsGraphReturnsNoEmptyNodes" time="0.004">
+          <failure message="Some of your tests failed when run against our correct implementation: 9 tests ran with 2 failures in 2 ms.&#xa;java.lang.AssertionError: expected:&lt;{alyssa=[bbitdiddle], furrukh=[alyssa]}&gt; but was:&lt;{bbitdiddle=[], alyssa=[bbitdiddle], furrukh=[alyssa]}&gt;&#xd;&#xa;    ...&#xd;&#xa;    at twitter.SocialNetworkTest.GuessFollowsGraphMoreTweetsMoreFollowing(SocialNetworkTest.java:105)&#xd;&#xa;    ...&#xd;&#xa;java.lang.AssertionError: expected key alyssa is there&#xd;&#xa;    ...&#xd;&#xa;    at twitter.SocialNetworkTest.GuessFollowsGraphTwoTweetOneFollowing(SocialNetworkTest.java:66)&#xd;&#xa;    ...&#xa;----" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Some of your tests failed when run against our correct implementation: 9 tests ran with 2 failures in 2 ms.
+java.lang.AssertionError: expected:&lt;{alyssa=[bbitdiddle], furrukh=[alyssa]}&gt; but was:&lt;{bbitdiddle=[], alyssa=[bbitdiddle], furrukh=[alyssa]}&gt;
+    ...
+    at twitter.SocialNetworkTest.GuessFollowsGraphMoreTweetsMoreFollowing(SocialNetworkTest.java:105)
+    ...
+java.lang.AssertionError: expected key alyssa is there
+    ...
+    at twitter.SocialNetworkTest.GuessFollowsGraphTwoTweetOneFollowing(SocialNetworkTest.java:66)
+    ...
+----
+	at twitter.staff.TestHelpers.assertSuccess(TestHelpers.java:50)
+	at twitter.staff.SocialNetworkTestRunner.yourTests_staffGoodImpl_guessFollowsGraphReturnsNoEmptyNodes(SocialNetworkTestRunner.java:34)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.SocialNetworkTestRunner" name="yourTests_staffBadImpl_guessFollowsGraphFollowsInWrongDirectionBug" time="0.002" />
+
+      <testcase classname="twitter.staff.SocialNetworkTestRunner" name="yourTests_staffBadImpl_guessFollowsGraphAddsNonExistentUsersBug" time="0.002" />
+
+      <testcase classname="twitter.staff.SocialNetworkTestRunner" name="yourTests_staffGoodImpl_guessFollowsGraphBidirectionalFollowing" time="0.003">
+          <failure message="Some of your tests failed when run against our correct implementation: 9 tests ran with 3 failures in 1 ms.&#xa;java.lang.AssertionError: expected:&lt;{bbitdiddle=[alyssa], alyssa=[bbitdiddle, furrukh], furrukh=[alyssa]}&gt; but was:&lt;{bbitdiddle=[], alyssa=[bbitdiddle], furrukh=[alyssa]}&gt;&#xd;&#xa;    ...&#xd;&#xa;    at twitter.SocialNetworkTest.GuessFollowsGraphMoreTweetsMoreFollowing(SocialNetworkTest.java:105)&#xd;&#xa;    ...&#xd;&#xa;java.lang.AssertionError: expected:&lt;{alyssa=[furrukh], furrukh=[alyssa]}&gt; but was:&lt;{alyssa=[], furrukh=[alyssa]}&gt;&#xd;&#xa;    ...&#xd;&#xa;    at twitter.SocialNetworkTest.GuessFollowsGraphTwoTweetOneFollowing(SocialNetworkTest.java:75)&#xd;&#xa;    ...&#xd;&#xa;java.lang.AssertionError: expected:&lt;{alyssa=[furrukh], furrukh=[alyssa]}&gt; but was:&lt;{furrukh=[alyssa]}&gt;&#xd;&#xa;    ...&#xd;&#xa;    at twitter.SocialNetworkTest.testGuessFollowsGraphOneTweetOneFollowing(SocialNetworkTest.java:53)&#xd;&#xa;    ...&#xa;----" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Some of your tests failed when run against our correct implementation: 9 tests ran with 3 failures in 1 ms.
+java.lang.AssertionError: expected:&lt;{bbitdiddle=[alyssa], alyssa=[bbitdiddle, furrukh], furrukh=[alyssa]}&gt; but was:&lt;{bbitdiddle=[], alyssa=[bbitdiddle], furrukh=[alyssa]}&gt;
+    ...
+    at twitter.SocialNetworkTest.GuessFollowsGraphMoreTweetsMoreFollowing(SocialNetworkTest.java:105)
+    ...
+java.lang.AssertionError: expected:&lt;{alyssa=[furrukh], furrukh=[alyssa]}&gt; but was:&lt;{alyssa=[], furrukh=[alyssa]}&gt;
+    ...
+    at twitter.SocialNetworkTest.GuessFollowsGraphTwoTweetOneFollowing(SocialNetworkTest.java:75)
+    ...
+java.lang.AssertionError: expected:&lt;{alyssa=[furrukh], furrukh=[alyssa]}&gt; but was:&lt;{furrukh=[alyssa]}&gt;
+    ...
+    at twitter.SocialNetworkTest.testGuessFollowsGraphOneTweetOneFollowing(SocialNetworkTest.java:53)
+    ...
+----
+	at twitter.staff.TestHelpers.assertSuccess(TestHelpers.java:50)
+	at twitter.staff.SocialNetworkTestRunner.yourTests_staffGoodImpl_guessFollowsGraphBidirectionalFollowing(SocialNetworkTestRunner.java:44)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.SocialNetworkTestRunner" name="yourTests_staffGoodImpl_influencersSameRankArbitraryOrder1" time="0.001" />
+
+      <testcase classname="twitter.staff.SocialNetworkTestRunner" name="yourTests_staffGoodImpl_influencersSameRankArbitraryOrder2" time="0.005">
+          <failure message="Some of your tests failed when run against our correct implementation: 9 tests ran with 1 failure in 2 ms.&#xa;org.junit.ComparisonFailure: expected:&lt;[smith]&gt; but was:&lt;[alyssa]&gt;&#xd;&#xa;    ...&#xd;&#xa;    at twitter.SocialNetworkTest.testInfluencer_ManyTweetsManyFollower(SocialNetworkTest.java:152)&#xd;&#xa;    ...&#xa;----" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Some of your tests failed when run against our correct implementation: 9 tests ran with 1 failure in 2 ms.
+    ...
+    at twitter.SocialNetworkTest.testInfluencer_ManyTweetsManyFollower(SocialNetworkTest.java:152)
+    ...
+----
+	at twitter.staff.TestHelpers.assertSuccess(TestHelpers.java:50)
+	at twitter.staff.SocialNetworkTestRunner.yourTests_staffGoodImpl_influencersSameRankArbitraryOrder2(SocialNetworkTestRunner.java:54)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.SocialNetworkTestRunner" name="yourTests_staffBadImpl_guessFollowsGraphMustBeCaseInsensitiveBug" time="0.002">
+          <failure message="None of your tests failed when run against our broken implementation: 9 tests ran with 0 failures in 1 ms." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: None of your tests failed when run against our broken implementation: 9 tests ran with 0 failures in 1 ms.
+	at twitter.staff.TestHelpers.assertFailure(TestHelpers.java:59)
+	at twitter.staff.SocialNetworkTestRunner.yourTests_staffBadImpl_guessFollowsGraphMustBeCaseInsensitiveBug(SocialNetworkTestRunner.java:69)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.SocialNetworkTestRunner" name="yourTests_staffBadImpl_guessFollowsGraphSelfMentionBug" time="0.002">
+          <failure message="None of your tests failed when run against our broken implementation: 9 tests ran with 0 failures in 1 ms." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: None of your tests failed when run against our broken implementation: 9 tests ran with 0 failures in 1 ms.
+	at twitter.staff.TestHelpers.assertFailure(TestHelpers.java:59)
+	at twitter.staff.SocialNetworkTestRunner.yourTests_staffBadImpl_guessFollowsGraphSelfMentionBug(SocialNetworkTestRunner.java:64)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.SocialNetworkTestRunner" name="yourTests_staffBadImpl_influencersPrunesEmptyNodesBug" time="0.001" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>
